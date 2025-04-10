@@ -1,5 +1,5 @@
 # Lean image for running the bulk of the NSS CI tests on taskcluster.
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 VOLUME /builds/worker/checkouts
 VOLUME /builds/worker/.cache
