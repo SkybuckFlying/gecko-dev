@@ -1,5 +1,5 @@
 # Use the latest Ubuntu image
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Install required dependencies
 RUN apt-get update && apt-get install -y curl git && \
